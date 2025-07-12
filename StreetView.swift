@@ -14,7 +14,7 @@ struct StreetView: View {
         NavigationView {
             VStack(alignment: .leading, spacing: 16) {
                 
-                // MARK: Дата и Погода
+           
                 HStack {
                     Text(formattedDate)
                         .font(.system(size: 24, weight: .bold))
@@ -36,7 +36,7 @@ struct StreetView: View {
                 .padding(.horizontal)
                 .padding(.top, 10)
 
-                // MARK: Morning Section
+  
                 VStack(alignment: .leading, spacing: 8) {
                     Text("Morning")
                         .font(.system(size: 16, weight: .medium))
